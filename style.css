@@ -1,0 +1,126 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #18191A;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+button {
+    padding: 15px;
+    background-color: #9370DB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: none;
+}
+
+.camera-section {
+    margin-top: 40px;
+}
+
+.result-section {
+    margin-top: 30px;
+}
+
+#result-text {
+    font-size: 18px;
+    color: #9370DB;
+}
+
+.voice-feedback {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 80px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #BOC4DE; /* Ganti dengan warna latar belakang yang diinginkan */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-content {
+    position: relative;
+}
+
+.footer-logo {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px; /* Sesuaikan ukuran logo */
+    height: auto;
+}
+
+/* Border untuk header */
+header {
+    background-color: #B0C4DE;  /* Warna latar belakang header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FFFFFF; /* Border bawah pada header */
+}
+
+/* Border untuk tampilan video kamera */
+.camera-section video {
+    border: 3px solid #FFFFFF; /* Border sekitar video */
+    border-radius: 10px; /* Sudut border yang lebih lembut */
+}
+
+/* Border dan desain untuk footer */
+footer {
+    background-color: #B0C4DE;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.footer-content {
+    position: relative;
+}
+
+.footer-logo {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 30px;
+    height: auto;
+}
