@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="style.css">
+	<link rel="icon" href="logoo.png" type="png>
+    <title>Alat Bantu Tunanetra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pendeteksi Objek di Depan</h1>
+		<P></P>
+        <p>Gunakan kamera belakang untuk mendeteksi objek dan mendengar frekuensi suara berdasarkan jarak objek.</p>
+    </header>
+
+    <main>
+        <section class="camera-section">
+            <video id="video" width="100%" height="auto" autoplay></video>
+            <button id="start-btn" onclick="startObjectDetection()">Mulai Deteksi</button>
+        </section>
+
+        <section class="result-section">
+            <p id="result-text">Mendeteksi objek...</p>
+        </section>
+
+        <section class="voice-feedback">
+            <p id="feedback-text">Suara berdasarkan jarak objek akan muncul di sini.</p>
+        </section>
+    </main>
+
+	
+	<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 Alat Bantu Tunanetra</p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
